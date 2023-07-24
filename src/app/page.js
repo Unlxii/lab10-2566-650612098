@@ -71,6 +71,7 @@ export default function RandomUserPage() {
             imgUrl={user.imgUrl}
             address={user.address}
             email={user.email}
+            key={user.email}
           />
         ))}
     </div>
